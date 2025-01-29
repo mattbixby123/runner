@@ -63,7 +63,10 @@ This course is a beginner's step-by-step guide to developing web applications us
       - `UserRestClientTest`
 - Resources
 
-Project sourced from Dan Vega's course with original code - https://github.com/danvega/fcc-spring-boot-3/blob/main/README.md
+**Project sourced from Dan Vega's course: {
+Original code - https://github.com/danvega/fcc-spring-boot-3/blob/main/README.md
+Course video - https://www.youtube.com/watch?v=31KTdfRH6nY&t=470s
+};**
 
 ## Prerequisites
 
