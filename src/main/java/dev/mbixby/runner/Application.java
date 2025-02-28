@@ -24,8 +24,10 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
+	// Setting up the REST client and communicating that with spring
 	@Bean
 	UserHttpClient userHttpClient() {
+		// populates user with placeholder data from the API url in the line below
 		RestClient restClient = RestClient.create("https://jsonplaceholder.typicode.com/");
 		HttpServiceProxyFactory factory = HttpServiceProxyFactory.builderFor(RestClientAdapter.create(restClient)).build();
 		return factory.createClient(UserHttpClient.class);

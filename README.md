@@ -146,3 +146,12 @@ This is a list of resources I recommend you check out to continue your learning.
 - [Amigoscode](https://www.youtube.com/@amigoscode)
 - [Java Brains](https://www.youtube.com/c/JavaBrainsChannel)
 - [Daily Code Buffer](https://www.youtube.com/@DailyCodeBuffer)
+
+
+### notes from Matt to self:
+Both are configured to fetch user data from JSONPlaceholder, which explains why you see that user data in your logs but not in your local PostgreSQL database. Your application architecture separates:
+
+Run data: Stored locally in your PostgreSQL database
+User data: Fetched from an external API
+
+This is a common pattern in microservices architectures where different types of data might come from different services or sources.
